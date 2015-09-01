@@ -6,6 +6,7 @@
 	<meta charset="UTF-8">
 	<link rel='stylesheet' href='assets/css/bootstrap.css'>
 	<link rel='stylesheet' href='assets/css/landing-page-style.css'>
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	<script type='text/javascript' src='assets/js/jquery-2.1.4.js'></script>
 	<script type='text/javascript' src='assets/js/bootstrap.js'></script>
 	
@@ -16,6 +17,7 @@
 	<title>Bricks MFG Co.</title>
 </head>
 <body>
+	
 	
 
 	<div class="site-wrapper">
@@ -88,7 +90,19 @@
 
           <div class="mastfoot">
             <div class="inner">
-             
+	            <span class="facebook">
+	   				<i class="fa fa-facebook-official fa-3x"></i>
+				</span>
+	            <span class="instagram">
+	   				<i class="fa fa-instagram fa-3x"></i>
+				</span>
+            	<span class="twitter">
+	   				<i class="fa fa-twitter fa-3x"></i>
+				</span>
+				<span class='tumblr'>
+					<i class="fa fa-tumblr fa-3x"></i>
+    			</span>	
+
             </div>
           </div>
         </div>

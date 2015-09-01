@@ -162,6 +162,12 @@ Modal Content
   color: rgba(255,255,255,.5);
 }
 
+/*Icons*/
+.instagram, .twitter, .tumblr {
+  margin-left: 10px;
+}
+
+
 
 /*
  * Affix and center
