@@ -50,6 +50,7 @@
       							<p>Email:<input type='email' name='login'></p>
       							<p>Password:<input type='password' name='login'></p>
       							<p><input class='btn btn-default' type='submit' value='Login'></p>
+      							<p class='password-forget'><a href=''>Forgot Password?</a></p>
       						</form>
     					</div>
   					</div>
