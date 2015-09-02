@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping Cart</title>
+</head>
+<body>
+	<div style="margin:0px auto; width:800px;">
+		<div style="padding-bottom:10px">
+			<h1 align="left">Cart</h1>
+		</div>
+		<table border="0" cellpadding="5px" cellspacing="1px" style="font-family:Verdana" width="100%">
+		<tr style="font-weight:bold">
+			<td>Image</td>
+			<td>Item Name</td>
+			<td>Description</td>
+			<td>Size</td>
+			<td>Qty</td>
+			<td>Subtotal</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="#"></img>
+			</td>
+			<td>
+				Oakland Chain Tree Design.100% Cotton. <!--hardcoded for example-->
+			</td>
+			<td>
+				<select>
+					<option value="XS">xs</option>	<!--hardcoded for example-->
+  					<option value="S">Small</option>	<!--hardcoded for example-->
+  					<option value="M">Medium</option>	<!--hardcoded for example-->
+  					<option value="L">Large</option>	<!--hardcoded for example-->
+  					<option value="XL">X-Large</option>	<!--hardcoded for example-->
+				</select>
+			</td>
+			<td>
+				$24.00 	<!--hardcoded for example-->
+			</td>
+			<td>
+				<input type="quantity" name="quantity" min="1" max="100" step="1" value="1" size="5"/>
+			</td>
+			<td>
+				$24.00 	<!--hardcoded for example-->
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="right">
+				<b>Order Total:</b>$24.00 	<!--hardcoded for example-->
+			</td>
+			<td colspan="5" align="right">
+				<input type="submit" value="Go to products"><br>
+				<input type="submit" value="Update Cart"><br>
+				<input type="submit" value="Checkout">
+			</td>
+		</table>
+	</div>
+</body>
+</html>
