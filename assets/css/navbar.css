@@ -1,0 +1,8 @@
+.navbar-fixed-top {
+	background-color: black;
+}
+
+#logout_button {
+	background-color: red;
+	border: 1px solid red;
+}

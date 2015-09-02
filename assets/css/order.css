@@ -1,19 +1,19 @@
 body {
-	
-	
 	font-family: 'Titillium Web', sans-serif;
 }
 
+h3 {
+	margin-top: 100px;
+}
 
 .content{
-	margin-top: 150px;
+	margin-top: 60px;
 	color: black;
-	
 }
 
 .table {
 	margin: 0 auto;
 	border: 1px solid lightgray; 
-	width: 1000px;
-	
+	width: 1000px;	
 }
+

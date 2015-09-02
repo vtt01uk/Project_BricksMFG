@@ -5,15 +5,17 @@
 	<link rel='stylesheet' href='assets/css/bootstrap.css'>
     <link rel='stylesheet' href='assets/css/order.css'>      	
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel='stylesheet' href='assets/css/navbar.css'>      	
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
 	<script type='text/javascript' src='assets/js/jquery-2.1.4.js'></script>
 	<script type='text/javascript' src='assets/js/bootstrap.js'></script>
 	<style>
 	</style>
 
+	<?php $this->load->view('partials/header');?>
 
 
-	<div class='container'>
+	<div class='container'>	
 		<h3>Thanks for your business here's a summary of order item['id']: </h3>
 		<div class='content'>
 			
